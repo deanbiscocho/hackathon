@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Plays a sound when a button is pressed.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.google.com/*"],
+    "css": ["popup.css"]
+  }]
+ 
+
+ 
+}
